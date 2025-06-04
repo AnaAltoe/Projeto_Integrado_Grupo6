@@ -1,0 +1,258 @@
+
+
+/* NAVBAR */
+.bg-custom {
+    background-color: #331E09;
+}
+
+
+
+
+
+/* GERAIS */
+body {
+    font-family: 'Open Sans';
+    font-weight: 600;
+    background-color: #f4F0DC;
+    margin: 0;
+    padding: 0;
+  }
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    height: 80px; 
+    background-color: #f4F0DC;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+/* Logo no canto superior esquerdo */
+.logo {
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+
+/* Caixas */
+.login-box, .cadastro-box, .selecao-box {
+    border: 1px solid #331E09;
+    padding: 25px;
+    text-align: center;
+    width: 380px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background:#ffffff; 
+    box-shadow: 0 4px 10px #331e098e; 
+    border-radius:30px; 
+    align-items: center;
+    justify-content: center;
+
+    position: absolute; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0; 
+ }
+  
+.cadastro-box {
+    width: 90%; 
+    max-width: 400px; 
+    height: auto; 
+    padding: 20px;
+    margin: 0; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+}
+
+.container_form {
+    width: 100%;
+}
+  
+
+/* Títulos */
+h1 {
+    font-family: 'Bree Serif';
+    color: #331E09;
+}
+
+.login-box h1 {
+    margin-bottom: 20px;
+}
+
+.cadastro-box h1 {
+    margin-bottom: 2px;
+}
+
+
+/* Formulários */
+.form-login, .form-cadastro {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: #331E09;
+}
+  
+.form-login label{
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.form-cadastro label{
+    text-align: left;
+    margin-top: 4px;
+}
+
+
+/* Radios */
+.radio-group {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.radio-group label {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 15px;
+    display: inline-flex; 
+    align-items: center;
+}
+
+.radio-group input[type="radio"] {
+    margin: 0;
+    cursor: pointer;
+}
+
+
+/* Inputs dos formulários */
+.form-login input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #5e767d;
+    background-color: #F4F0DC;
+    border-radius: 15px;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+.form-cadastro input {
+    width: 100%;
+    padding: 7px;
+    margin-bottom: 8px;
+    border: 1px solid #5e767d;
+    background-color: #F4F0DC;
+    border-radius: 15px;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+/* A caixa chama atenção quando está nela */
+input:focus {
+    background-color: #dad2ac;
+    outline: none;
+    transform:scale(1.05);
+    transition: all 0.3s ease-in-out;
+}
+  
+
+/* Esqueci minha senha */
+.esqueci-senha {
+    align-self: flex-start;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+  
+.esqueci-senha a {
+    text-decoration: none;
+    color: #331E09;
+}
+
+.esqueci-senha a:hover {
+    color: #94C800;
+    transform: scale(1.10);
+    transition: 0.3s;
+}
+
+
+/* Botões */  
+.botoes {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+button{
+    background-color: #265510;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+    border: none; 
+    padding: 8px 16px;
+    border-radius: 16px; 
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+button:hover{
+    background: #94C800;
+    transform: scale(1.10);
+    transition: 0.3s;
+}
+
+.voltar-selecao{
+    background-color: #F4F0DC;
+    color: #331E09;
+    border: 1px solid #331E09;
+    margin-top: 30px;
+}
+
+.voltar-selecao:hover{
+    background-color:   #331E09;
+    color: #F4F0DC;
+}
+
+.oqvce {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+    width: 100%;
+}
+
+.button-oqvce {
+  width: 100%;
+  text-align: center;
+  background-color: #265510;
+  color: white;
+  padding: 20px;
+}
+
+.button-oqvce:hover {
+  background: #94C800;
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+
+
+.enivarcodigo{
+    font-size: 14px;
+    padding: 7px 14px;
+    margin-top: 2px;
+    margin-bottom: 12px;
+}
